@@ -1,0 +1,3 @@
+bucket = "wiethecgi-dev-tf-state"
+prefix = "static.tfstate.d"
+impersonate_service_account = "sa-wiethecgi-tf-dev@wiethecgi.gserviceaccount.com"
