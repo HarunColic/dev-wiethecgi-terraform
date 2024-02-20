@@ -1,7 +1,6 @@
 variable "project_id" {
     description = "Project ID"
     type = string
-
 }
 
 variable "region" {
@@ -15,6 +14,7 @@ variable "zone" {
   type = string
   default = "europe-west3-b"
 }
+
 variable "tf_service_account" {
   description = "Service account"
   type = string

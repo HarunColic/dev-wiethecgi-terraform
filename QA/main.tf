@@ -36,7 +36,7 @@ resource "google_cloud_run_service" "qa" {
 
 resource "google_dns_managed_zone" "dev-qa" {
   name     = "dev.qa"
-  dns_name = "dev.qa.com."
+  dns_name = "dev.qa.wiethe.com"
 }
 
 resource "google_dns_record_set" "qa" {

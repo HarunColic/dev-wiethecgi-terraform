@@ -36,7 +36,7 @@ resource "google_cloud_run_service" "wielabel" {
 
 resource "google_dns_managed_zone" "dev-wielabel" {
   name     = "dev.wielabel"
-  dns_name = "dev.wielabel.com."
+  dns_name = "dev.wielabel.wiethe.com"
 }
 
 resource "google_dns_record_set" "wielabel" {
